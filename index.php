@@ -187,12 +187,14 @@ i {
     color:#fff;
     background-color:  #5161ce;
     /* padding:10px 5px 2px 1px; */
+    margin:0;
 
 }
 .btn:hover{
     background-color: tomato;
     color:black;
 }
+
 
 </style>
 
@@ -274,7 +276,26 @@ i {
     </div>
 </div>
 </div>
-    
+    <!-- About SMS -->
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 py-5">
+                <h2 class="font-weight-bold">About <br> School Management System</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi qui voluptatem nesciunt? Voluptatum ipsum repellat laudantium! Velit animi optio magni iusto, doloremque excepturi itaque ex sequi maiores ullam quae cumque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda earum, dolores fugiat unde blanditiis non sed quod facere ipsa voluptatum nam, officiis labore. Vero, autem optio excepturi nihil culpa amet?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim suscipit dignissimos consequuntur recusandae placeat, assumenda libero. Architecto consectetur fuga vero, illum quam soluta a, vel in blanditiis nobis unde iste.</p>
+                <a href="https://www.kyau.edu.bd/" class="btn btn-secondary">Know More</a>
+            </div>
+            <div class="col-lg-6 py-5">
+                <img src="Images/element5-digital-OyCl7Y4y0Bk-unsplash (1).jpg" alt="About" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- Our courses -->
 <section class="py-5 text-center">
     <div class="text-center mb-5">
         <h2 class="font-weight-bold">Our Courses</h2>
