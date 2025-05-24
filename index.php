@@ -239,12 +239,28 @@ i {
             <a href="" class="btn btn-ig btn-primary">Call to Action</a>
         </div>
         <div class="col-lg-6">
-            <form action="" method="post">
+         <div class="w-50 mx auto card">
+            <div class="card-body">
+                  <form action="" method="post">
                 <div class="md-form">
                     <input type="text" id="form1" class="form-control">
-                    <label for="form1">Example label</label>
+                    <label for="form1">Your Name</label>
                 </div>
+
+                <div class="md-form">
+                    <input type="email" id="email" class="form-control">
+                    <label for="email">Your Email</label>
+                </div>
+
+                <div class="md-form">
+                    <input type="text" id="mobile" class="form-control">
+                    <label for="mobile">Your Mobile</label>
+                </div>
+
+                <button class="btn btn-primary">Submit Form</button>
             </form>
+            </div>
+         </div>
         </div>
     </div>
 </div>
