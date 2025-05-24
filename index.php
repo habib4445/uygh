@@ -479,7 +479,21 @@ i {
 </div>
 
  </section>
+<!-- Acheivement -->
+  <section class="py-5 text-white " style="background:#3923a7">
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="font-weight-bold">Acheivements</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam sequi inventore perferendis fugiat voluptas, expedita fuga! Unde ipsam doloribus sunt, saepe, sapiente iusto, optio tempora excepturi minus voluptas facilis porro.</p>
+                    <img src="Images/element5-digital-OyCl7Y4y0Bk-unsplash (1).jpg" alt="" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </div>
 
+  </section>
 
 
 
