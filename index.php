@@ -487,7 +487,55 @@ i {
                 <div class="col-lg-6">
                     <h2 class="font-weight-bold">Acheivements</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam sequi inventore perferendis fugiat voluptas, expedita fuga! Unde ipsam doloribus sunt, saepe, sapiente iusto, optio tempora excepturi minus voluptas facilis porro.</p>
-                    <img src="Images/element5-digital-OyCl7Y4y0Bk-unsplash (1).jpg" alt="" class="img-fluid rounded">
+                    <img src="Images/element5-digital-OyCl7Y4y0Bk-unsplash (1).jpg" alt="" class="img-fluid rounded" >
+                </div>
+                <div class="log-lg-6 my-auto">
+                    <div class="row">
+                        <div class="col-lg-6 mb-4">
+                            <div class="border rounded ">
+                                <div class="card-body text-center">
+                                    <span> <i class="text-warning fas fa-graduation-cap fa-2x"></i> </span>
+                                    <h2 class="my-2 font-weight-bold h1">334</h2>
+                                    <hr class="border-warning">
+                                    <h4>Graduates</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-4">
+                            <div class="border rounded ">
+                                <div class="card-body text-center">
+                                    <span> <i class="text-warning fas fa-graduation-cap fa-2x"></i> </span>
+                                    <h2 class="my-2 font-weight-bold h1">334</h2>
+                                    <hr class="border-warning">
+                                    <h4>Graduates</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-4">
+                            <div class="border rounded ">
+                                <div class="card-body text-center">
+                                    <span> <i class="text-warning fas fa-graduation-cap fa-2x"></i> </span>
+                                    <h2 class="my-2 font-weight-bold h1">334</h2>
+                                    <hr class="border-warning">
+                                    <h4>Graduates</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-4">
+                            <div class="border rounded ">
+                                <div class="card-body text-center">
+                                    <span> <i class="text-warning fas fa-graduation-cap fa-2x"></i> </span>
+                                    <h2 class="my-2 font-weight-bold h1">334</h2>
+                                    <hr class="border-warning">
+                                    <h4>Graduates</h4>
+                                </div>
+                            </div>
+                        </div>
+         
+          
+                       
+                        
+                    </div>
                 </div>
             </div>
         </div>
