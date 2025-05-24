@@ -189,11 +189,24 @@ i {
 		left: -25px;
 	}
 }
+/* Call to Action */
+.btn{
+    color:#fff;
+    background-color:  #5161ce;
+    /* padding:10px 5px 2px 1px; */
+
+}
+.btn:hover{
+    background-color: tomato;
+    color:black;
+}
+
 </style>
 
 
 <body>
-    
+
+
 <nav class="navbar navbar-expand-custom navbar-mainbg">
         <a class="navbar-brand navbar-logo" href="#">SMS</a>
         <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -224,6 +237,17 @@ i {
             </ul>
         </div>
     </nav>
+
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-6">
+            <h1 class="display-3" >School Management System</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore veritatis hic laudantium nemo aliquid numquam commodi earum sunt quam fugit ea perspiciatis, vel id itaque in officiis dolores blanditiis exercitationem!</p>
+            <a href="" class="btn btn-ig btn-primary">Call to Action</a>
+        </div>
+    </div>
+</div>
+    
 
 
 
