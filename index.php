@@ -276,8 +276,151 @@ i {
 </div>
     
 <section class="py-5">
-    <div>
-        <h2 class=text-center>Our Courses</h2>
+    <div class="text-center mb-5">
+        <h2 class="font-weight-bold">Our Courses</h2>
+        <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus vitae sint nesciunt incidunt voluptatum? Consequatur maxime quos veniam nulla facilis labore eaque cupiditate sint excepturi animi, delectus amet nesciunt possimus!</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <!-- Enroll 1 -->
+            <div class="col-log-3">
+                <div class="card">
+                    <div >
+                        <img src="Images/element5-digital-OyCl7Y4y0Bk-unsplash (1).jpg" alt="" class="img-fluid rounded-top" style="height:150px ">
+                    </div>
+                    <div class="card-body">
+                        <b>Web Design & Development</b>
+                        <p class="card-text">
+                            <b>Duration:</b> 45 hours <br>
+                            <b>Price: </b> 4000/- Rs
+                        </p>
+                      <button class="btn btn-block btn-primary btn-sm">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+<!-- Enroll 2 -->
+<div class="col-log-3">
+                <div class="card">
+                    <div >
+                        <img src="Images/element5-digital-OyCl7Y4y0Bk-unsplash (1).jpg" alt="" class="img-fluid rounded-top" style="height:150px ">
+                    </div>
+                    <div class="card-body">
+                        <b>Web Design & Development</b>
+                        <p class="card-text">
+                            <b>Duration:</b> 45 hours <br>
+                            <b>Price: </b> 4000/- Rs
+                        </p>
+                      <button class="btn btn-block btn-primary btn-sm">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+<!-- Enroll 3 -->
+<div class="col-log-3">
+                <div class="card">
+                    <div >
+                        <img src="Images/element5-digital-OyCl7Y4y0Bk-unsplash (1).jpg" alt="" class="img-fluid rounded-top" style="height:150px ">
+                    </div>
+                    <div class="card-body">
+                        <b>Web Design & Development</b>
+                        <p class="card-text">
+                            <b>Duration:</b> 45 hours <br>
+                            <b>Price: </b> 4000/- Rs
+                        </p>
+                      <button class="btn btn-block btn-primary btn-sm">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+<!-- Enroll 4 -->
+
+<div class="col-log-3">
+                <div class="card">
+                    <div >
+                        <img src="Images/element5-digital-OyCl7Y4y0Bk-unsplash (1).jpg" alt="" class="img-fluid rounded-top" style="height:150px ">
+                    </div>
+                    <div class="card-body">
+                        <b>Web Design & Development</b>
+                        <p class="card-text">
+                            <b>Duration:</b> 45 hours <br>
+                            <b>Price: </b> 4000/- Rs
+                        </p>
+                      <button class="btn btn-block btn-primary btn-sm">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-log-3">
+                <div class="card">
+                    <div >
+                        <img src="Images/element5-digital-OyCl7Y4y0Bk-unsplash (1).jpg" alt="" class="img-fluid rounded-top" style="height:150px ">
+                    </div>
+                    <div class="card-body">
+                        <b>Web Design & Development</b>
+                        <p class="card-text">
+                            <b>Duration:</b> 45 hours <br>
+                            <b>Price: </b> 4000/- Rs
+                        </p>
+                      <button class="btn btn-block btn-primary btn-sm">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+        <div class="col-log-3">
+                <div class="card">
+                    <div >
+                        <img src="Images/element5-digital-OyCl7Y4y0Bk-unsplash (1).jpg" alt="" class="img-fluid rounded-top" style="height:150px ">
+                    </div>
+                    <div class="card-body">
+                        <b>Web Design & Development</b>
+                        <p class="card-text">
+                            <b>Duration:</b> 45 hours <br>
+                            <b>Price: </b> 4000/- Rs
+                        </p>
+                      <button class="btn btn-block btn-primary btn-sm">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-log-3">
+                <div class="card">
+                    <div >
+                        <img src="Images/element5-digital-OyCl7Y4y0Bk-unsplash (1).jpg" alt="" class="img-fluid rounded-top" style="height:150px ">
+                    </div>
+                    <div class="card-body">
+                        <b>Web Design & Development</b>
+                        <p class="card-text">
+                            <b>Duration:</b> 45 hours <br>
+                            <b>Price: </b> 4000/- Rs
+                        </p>
+                      <button class="btn btn-block btn-primary btn-sm">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-log-3">
+                <div class="card">
+                    <div >
+                        <img src="Images/element5-digital-OyCl7Y4y0Bk-unsplash (1).jpg" alt="" class="img-fluid rounded-top" style="height:150px ">
+                    </div>
+                    <div class="card-body">
+                        <b>Web Design & Development</b>
+                        <p class="card-text">
+                            <b>Duration:</b> 45 hours <br>
+                            <b>Price: </b> 4000/- Rs
+                        </p>
+                      <button class="btn btn-block btn-primary btn-sm">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+
+
+            
+
+        </div>
     </div>
 
 </section>
