@@ -241,7 +241,7 @@ i {
             <a href="" class="btn btn-ig btn-primary">Call to Action</a>
         </div>
         <div class="col-lg-6">
-         <div class="w-50 mx auto card shadow-lg">
+         <div class="col-lg-8 mx auto card shadow-lg">
             <div class="card-body">
                 <h3 class="text-black">Admission Forms</h3>
                   <form action="" method="post">
@@ -424,6 +424,10 @@ i {
     </div>
 
 </section>
+<!-- Another section -->
+ <div class="py-5 bg-light">
+    habib
+ </div>
 
 
 
