@@ -230,12 +230,12 @@ i {
             </ul>
         </div>
     </nav>
-
+<div class="d-flex" style="height:500px; background:linear-gradient(45deg, navy , transparent)">
     <div class="container-fluid">
     <div class="row">
         <div class="col-lg-6">
-            <h1 class="display-3" >School Management System</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore veritatis hic laudantium nemo aliquid numquam commodi earum sunt quam fugit ea perspiciatis, vel id itaque in officiis dolores blanditiis exercitationem!</p>
+            <h1 class="display-3 text-white" >School Management System</h1>
+            <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore veritatis hic laudantium nemo aliquid numquam commodi earum sunt quam fugit ea perspiciatis, vel id itaque in officiis dolores blanditiis exercitationem!</p>
             <a href="" class="btn btn-ig btn-primary">Call to Action</a>
         </div>
         <div class="col-lg-6">
@@ -257,11 +257,12 @@ i {
                     <label for="mobile">Your Mobile</label>
                 </div>
 
-                <button class="btn btn-primary">Submit Form</button>
+                <button class="btn btn-primary btn-block">Submit Form</button>
             </form>
             </div>
          </div>
         </div>
+    </div>
     </div>
 </div>
     
