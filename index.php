@@ -230,17 +230,20 @@ i {
             </ul>
         </div>
     </nav>
-<div class="d-flex" style="height:500px; background:linear-gradient(45deg, navy , transparent)">
+<div class="d-flex shadow" style="height:500px; background:linear-gradient(45deg, #3923a7 , transparent)">
+
+
     <div class="container-fluid">
     <div class="row">
         <div class="col-lg-6">
-            <h1 class="display-3 text-white" >School Management System</h1>
+            <h1 class="display-3 text-white font-weight-bold" >School Management System</h1>
             <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore veritatis hic laudantium nemo aliquid numquam commodi earum sunt quam fugit ea perspiciatis, vel id itaque in officiis dolores blanditiis exercitationem!</p>
             <a href="" class="btn btn-ig btn-primary">Call to Action</a>
         </div>
         <div class="col-lg-6">
-         <div class="w-50 mx auto card">
+         <div class="w-50 mx auto card shadow-lg">
             <div class="card-body">
+                <h3 class="text-black">Admission Forms</h3>
                   <form action="" method="post">
                 <div class="md-form">
                     <input type="text" id="form1" class="form-control">
@@ -257,18 +260,27 @@ i {
                     <label for="mobile">Your Mobile</label>
                 </div>
 
+
+                <div class="md-form">
+                    <input type="text" id="Class" class="form-control">
+                    <label for="class">Your Class</label>
+                </div>
+
                 <button class="btn btn-primary btn-block">Submit Form</button>
             </form>
             </div>
          </div>
-        </div>
     </div>
     </div>
 </div>
+</div>
     
+<section class="py-5">
+    <div>
+        <h2 class=text-center>Our Courses</h2>
+    </div>
 
-
-
+</section>
 
 
 
