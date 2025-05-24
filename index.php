@@ -275,7 +275,7 @@ i {
 </div>
 </div>
     
-<section class="py-5">
+<section class="py-5 text-center">
     <div class="text-center mb-5">
         <h2 class="font-weight-bold">Our Courses</h2>
         <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus vitae sint nesciunt incidunt voluptatum? Consequatur maxime quos veniam nulla facilis labore eaque cupiditate sint excepturi animi, delectus amet nesciunt possimus!</p>
@@ -425,10 +425,36 @@ i {
 
 </section>
 <!-- Another section -->
- <div class="py-5 bg-light">
-    habib
+ <section class="py-5 bg-light">
+    <div class="py-5 bg-light">
+     <div class="text-center mb-5">
+        <h2 class="font-weight-bold">Our Teachers</h2>
+        <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus vitae sint nesciunt incidunt voluptatum? Consequatur maxime quos veniam nulla facilis labore eaque cupiditate sint</p>
+    </div>
  </div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="card">
+                 <div class="col-7 position-absulate" style="top:-50px">
+                    <img src="Images/placeholder-images-image_large.png" alt="" class="mw-100 border rounded-circle">
+                        </div>
+                <div class="card-body pt-5 mt-4">
+                  <h5 class="card-title">Teacher's Name</h5>  
+                  <p class="card-text">
+                    <b>Courses:</b> 5 <br>
+                    <b>Ratting:</b> <i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i>
+                  </p>
+                    </div>
+                </div>
+            </div>
 
+
+        </div>
+    </div>
+</div>
+
+ </section>
 
 
 
