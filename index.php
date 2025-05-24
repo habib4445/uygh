@@ -281,10 +281,10 @@ i {
         <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus vitae sint nesciunt incidunt voluptatum? Consequatur maxime quos veniam nulla facilis labore eaque cupiditate sint excepturi animi, delectus amet nesciunt possimus!</p>
     </div>
 
-    <div class="container">
+    <div class="container ">
         <div class="row">
             <!-- Enroll 1 -->
-            <div class="col-log-3">
+            <div class="col-log-3 ">
                 <div class="card">
                     <div >
                         <img src="Images/element5-digital-OyCl7Y4y0Bk-unsplash (1).jpg" alt="" class="img-fluid rounded-top" style="height:150px ">
@@ -333,7 +333,7 @@ i {
             </div>
 <!-- Enroll 4 -->
 
-<div class="col-log-3">
+<div class="col-log-3 ">
                 <div class="card">
                     <div >
                         <img src="Images/element5-digital-OyCl7Y4y0Bk-unsplash (1).jpg" alt="" class="img-fluid rounded-top" style="height:150px ">
@@ -434,7 +434,10 @@ i {
  </div>
 <div class="container">
     <div class="row">
-        <div class="col-lg-3">
+       <?php for ($i = 0; $i < 8; $i++){ ?>
+
+      
+        <div class="col-lg-3 my-5">
             <div class="card">
                  <div class="col-7 position-absulate" style="top:-50px">
                     <img src="Images/placeholder-images-image_large.png" alt="" class="mw-100 border rounded-circle">
@@ -448,9 +451,9 @@ i {
                     </div>
                 </div>
             </div>
-
-
+<?php } ?>
         </div>
+      
     </div>
 </div>
 
