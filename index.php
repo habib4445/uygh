@@ -543,7 +543,28 @@ i {
 
   </section>
 
+<!-- Testimonials -->
+ <section class="py-5">
+    
+        <h2 class="font-weight-bold text-center">What Peaple Says</h2>
+        <p class="text-muted text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus vitae sint nesciunt incidunt voluptatum? Consequatur maxime quos veniam nulla facilis labore eaque cupiditate sint</p>
+    </div>
+    <div class="container">
+        <div >
+        <div class="border rounded col-4">
+            <div class="p-3 text-center">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime similique, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, sed. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto aliquam in voluptatibus iste doloremque fugiat tempore eos tenetur atque quibusdam.
 
+            </div>
+             <img src="Images/placeholder-images-image_large.png" alt="" class="rounded-circle border" width="100" height="100">
+             <h6 class="mb-0 font-weight-bold">Name Of Candidate</h6>
+             <p> <i>Designation</i> </p>
+        </div>
+    
+        
+    </div>
+    </div>
+ </section>
 
 
 
