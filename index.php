@@ -370,7 +370,7 @@ i {
                 </div>
             </div>
 
-
+<!-- Enroll 5-->
             <div class="col-log-3">
                 <div class="card">
                     <div >
@@ -387,7 +387,7 @@ i {
                 </div>
             </div>
 
-
+<!-- Enroll 6 -->
 
         <div class="col-log-3">
                 <div class="card">
@@ -404,7 +404,7 @@ i {
                     </div>
                 </div>
             </div>
-
+<!-- Enroll 7 -->
 
             <div class="col-log-3">
                 <div class="card">
@@ -421,7 +421,7 @@ i {
                     </div>
                 </div>
             </div>
-
+<!-- Enroll 8 -->
             <div class="col-log-3">
                 <div class="card">
                     <div >
@@ -550,13 +550,34 @@ i {
         <p class="text-muted text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus vitae sint nesciunt incidunt voluptatum? Consequatur maxime quos veniam nulla facilis labore eaque cupiditate sint</p>
     </div>
     <div class="container">
-        <div >
-        <div class="border rounded col-4">
-            <div class="p-3 text-center">
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime similique, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, sed. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto aliquam in voluptatibus iste doloremque fugiat tempore eos tenetur atque quibusdam.
 
+        <div class="col-6" >
+        <div class="border rounded position-relative">
+            <div class="p-4 text-center">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime similique, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, sed. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto aliquam in voluptatibus iste doloremque fugiat tempore eos tenetur atque quibusdam.
             </div>
-             <img src="Images/placeholder-images-image_large.png" alt="" class="rounded-circle border" width="100" height="100">
+            <i class=" fa fa-quote-left fa-3x position-absolute" style="top:.5rem; left:.5rem; opacity:.2"></i>
+            
+        </div>
+        <div class="text-center mt-n2">
+            <img src="Images/placeholder-images-image_large.png" alt="" class="rounded-circle border" width="100" height="100">
+             <h6 class="mb-0 font-weight-bold">Name Of Candidate</h6>
+             <p> <i>Designation</i> </p>
+        </div>
+     
+    </div>
+
+    <div class="row">
+          <div class="col-6" >
+        <div class="border rounded position-relative">
+            <div class="p-4 text-center">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime similique, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, sed. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto aliquam in voluptatibus iste doloremque fugiat tempore eos tenetur atque quibusdam.
+            </div>
+            <i class=" fa fa-quote-left fa-3x position-absolute" style="top:.5rem; left:.5rem; opacity:.2"></i>
+             
+        </div>
+        <div class="text-center mt-n2">
+            <img src="Images/placeholder-images-image_large.png" alt="" class="rounded-circle border" width="100" height="100">
              <h6 class="mb-0 font-weight-bold">Name Of Candidate</h6>
              <p> <i>Designation</i> </p>
         </div>
@@ -564,9 +585,33 @@ i {
         
     </div>
     </div>
+
+    </div>
+    
  </section>
 
+ <!-- Footer -->
 
+<footer style="background:url(Images/element5-digital-OyCl7Y4y0Bk-unsplash (1).jpg) center/cover no-repeat"></footer>
+<div class="py-5 text-white" style="background:#00000088">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4">
+              <h5>Useful Links</h5>
+
+             <ul>
+             <i class="fa fa-cloud"></i>
+<li>  <i class="fa fa-heart"></i></li>    <i class="fa fa-heart"></i>
+    <li><i class="fa fa-car"></i></li>
+   <li> <i class="fa fa-file"></i></li>
+    <li><i class="fa fa-bars"></i></li>
+    <li><i class="fa fa-wrench"></i></li>
+             </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
 
 <!-- JQuery -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
