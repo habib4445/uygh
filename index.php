@@ -304,6 +304,7 @@ i {
 
     <div class="container ">
         <div class="row">
+            <?php for ($i=0; $i < 2; $i++){ ?>
             <!-- Enroll 1 -->
             <div class="col-log-3 ">
                 <div class="card">
@@ -439,7 +440,7 @@ i {
             </div>
 
 
-            
+            <?php } ?>
 
         </div>
     </div>
@@ -592,26 +593,9 @@ i {
 
  <!-- Footer -->
 
-<footer style="background:url(Images/element5-digital-OyCl7Y4y0Bk-unsplash (1).jpg) center/cover no-repeat"></footer>
-<div class="py-5 text-white" style="background:#00000088">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-4">
-              <h5>Useful Links</h5>
+<footer style="background:url(Images/element5-digital-OyCl7Y4y0Bk-unsplash (1).jpg) center/cover no-repeat">
 
-             <ul>
-             <i class="fa fa-cloud"></i>
-<li>  <i class="fa fa-heart"></i></li>    <i class="fa fa-heart"></i>
-    <li><i class="fa fa-car"></i></li>
-   <li> <i class="fa fa-file"></i></li>
-    <li><i class="fa fa-bars"></i></li>
-    <li><i class="fa fa-wrench"></i></li>
-             </ul>
-            </div>
-        </div>
-    </div>
-
-</div>
+</footer>
 
 <!-- JQuery -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
