@@ -594,6 +594,9 @@ i {
  <!-- Footer -->
 
 <footer style="background:url(Images/element5-digital-OyCl7Y4y0Bk-unsplash (1).jpg) center/cover no-repeat">
+    <div class="py-5 text-white" style>
+habib
+    </div>
 
 </footer>
 
