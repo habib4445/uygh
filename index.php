@@ -33,8 +33,9 @@ i {
 	color: #fff;
 }
 .navbar-mainbg{
-	background-color: #5161ce;
+	background-color:rgb(15, 43, 228);
 	padding: 0px;
+    color:white;
 }
 #navbarSupportedContent{
 	overflow: hidden;
@@ -197,8 +198,7 @@ i {
 
 
 </style>
-
-
+<head>
 <body>
 
 
@@ -220,7 +220,7 @@ i {
                     <a class="nav-link" href="javascript:void(0);"><i class="far fa-clone"></i>Components</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-calendar-alt"></i>Calendar</a>
+                    <a class="nav-link" href="https://www.timeanddate.com/calendar/?country=233"><i class="far fa-calendar-alt"></i>Calendar</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="javascript:void(0);"><i class="far fa-chart-bar"></i>Charts</a>
@@ -229,6 +229,12 @@ i {
                     <a class="nav-link" href="javascript:void(0);"><i class="far fa-copy"></i>Documents</a>
                     
                 </li>
+                
+                  <li class="nav-item">
+                    <a class="nav-link" href="login.php"><i class="far fa-user mr-2"></i>Login</a>
+                    </li>
+                    
+
             </ul>
         </div>
     </nav>
@@ -616,16 +622,11 @@ i {
 
 </footer>
 
-<!-- JQuery -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<!-- Bootstrap tooltips -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-<!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-<!-- MDB core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+<section class="py-2 bg-dark text-light">
+    <div class="conatiner-fluid">
+        Copyright 2025 All Rights Reseved. <a href="#" class="text-light">School Management System</a>
+    </div>
+</section>
 
+<?php include('footer.php') ?>
 
-
-</body>
-</html>
