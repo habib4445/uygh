@@ -201,7 +201,7 @@ i {
 <head>
     <body>
 
-<section class="bg-light vh-100n d-flex">
+<section class="bg-light vh-100 d-flex">
     <div class="col-3 m-auto">
         <div class="card">
             <div class="card-body">
@@ -219,6 +219,9 @@ i {
                         <input type="password" id="password" class="form-control">
                         <label for="password">Your Password</label>
                     </div>
+                   <div class="text-center">
+                    <button class="btn btn-secondary">Login</button>
+                   </div> 
                 </form>
             </div>
         </div>
