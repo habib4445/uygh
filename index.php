@@ -593,9 +593,24 @@ i {
 
  <!-- Footer -->
 
-<footer style="background:url(Images/element5-digital-OyCl7Y4y0Bk-unsplash (1).jpg) center/cover no-repeat">
-    <div class="py-5 text-white" style>
-habib
+<footer style="background:url(.Images/element5-digital-OyCl7Y4y0Bk-unsplash (1).jpg) center/cover no-repeat">
+    
+    <div class="py-5 text-white" style="background:#000000bb">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h5>Useful Links</h5>
+
+                    <ul>
+                        <li> <a href="" class="text-light"> <i class="fa-li fa fa-angle-right"></i>List icons </a></li>
+                        <li> <a href="" class="text-light"> <i class="fa-li fa fa-angle-right"></i>can be used </a></li>
+                       <li> <a href="" class="text-light"> <i class="fa-li fa fa-angle-right"></i>as bullets </a></li>
+                       <li> <a href="" class="text-light"> <i class="fa-li fa fa-angle-right"></i>in lists </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
     </div>
 
 </footer>
