@@ -210,17 +210,17 @@ i {
                      <i class="fa fa-user fa-stack-1x text-light"></i> 
                      
                     </span> </div>
-                <form action="">
+                <form action="Action/login.php" method="POST">
                     <div class="md-form">
-                        <input type="email" id="email" class="form-control">
+                        <input type="email" id="email" name="email" class="form-control">
                         <label for="email">Your Email</label>
                     </div>
                     <div class="md-form">
-                        <input type="password" id="password" class="form-control">
+                        <input type="password" id="password" name="password" class="form-control">
                         <label for="password">Your Password</label>
                     </div>
                    <div class="text-center">
-                    <button class="btn btn-secondary">Login</button>
+                    <button class="btn btn-secondary" name="login">Login</button>
                    </div> 
                 </form>
             </div>
