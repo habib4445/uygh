@@ -250,6 +250,7 @@ i {
                 </li>
 
             </ul>
+            
         </div>
     </nav>
 <div class="d-flex shadow" style="height:500px; background:linear-gradient(45deg, #3923a7 , transparent)">
