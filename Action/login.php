@@ -8,10 +8,11 @@ session_start();
 
     if ($email == 'admin@example.com' && $pass == 'admin@sms') {
         $_SESSION['login'] = true;
-        header('Location: ./index.php');
+        header('Location: ../index.php');
         exit();
     } else {
         echo 'Invalid Credentials';
     }
 }
 ?>
+
