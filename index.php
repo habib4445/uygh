@@ -1,258 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>School-management-system</title>
- <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-    <!-- Bootstrap core CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
-<link rel='stylesheet' id='wsl-widget-css'  href='https://mdbcdn.b-cdn.net/wp-content/plugins/wordpress-social-login/assets/css/style.css?ver=5.6.2' type='text/css' media='all' />
-<link rel='stylesheet' id='compiled.css-css'  href='https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/css/compiled-4.19.2.min.css?ver=4.19.2' type='text/css' media='all' />
-<style>
-    @import url('https://fonts.googleapis.com/css?family=Roboto');
-
-body{
-	font-family: 'Roboto', sans-serif;
-}
-* {
-	margin: 0;
-	padding: 0;
-}
-i {
-	margin-right: 10px;
-}
-/*----------bootstrap-navbar-css------------*/
-.navbar-logo{
-	padding: 15px;
-	color: #fff;
-}
-.navbar-mainbg{
-	background-color:rgb(15, 43, 228);
-	padding: 0px;
-    color:white;
-}
-#navbarSupportedContent{
-	overflow: hidden;
-	position: relative;
-}
-#navbarSupportedContent ul{
-	padding: 0px;
-	margin: 0px;
-}
-#navbarSupportedContent ul li a i{
-	margin-right: 10px;
-}
-#navbarSupportedContent li {
-	list-style-type: none;
-	float: left;
-}
-#navbarSupportedContent ul li a{
-	color: rgba(255,255,255,0.5);
-    text-decoration: none;
-    font-size: 15px;
-    display: block;
-    padding: 20px 20px;
-    transition-duration:0.6s;
-	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    position: relative;
-}
-#navbarSupportedContent>ul>li.active>a{
-	color: #5161ce;
-	background-color: transparent;
-	transition: all 0.7s;
-}
-#navbarSupportedContent a:not(:only-child):after {
-	content: "\f105";
-	position: absolute;
-	right: 20px;
-	top: 10px;
-	font-size: 14px;
-	font-family: "Font Awesome 5 Free";
-	display: inline-block;
-	padding-right: 3px;
-	vertical-align: middle;
-	font-weight: 900;
-	transition: 0.5s;
-}
-#navbarSupportedContent .active>a:not(:only-child):after {
-	transform: rotate(90deg);
-}
-.hori-selector{
-	display:inline-block;
-	position:absolute;
-	height: 100%;
-	top: 0px;
-	left: 0px;
-	transition-duration:0.6s;
-	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-	background-color: #fff;
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
-	margin-top: 10px;
-}
-.hori-selector .right,
-.hori-selector .left{
-	position: absolute;
-	width: 25px;
-	height: 25px;
-	background-color: #fff;
-	bottom: 10px;
-}
-.hori-selector .right{
-	right: -25px;
-}
-.hori-selector .left{
-	left: -25px;
-}
-.hori-selector .right:before,
-.hori-selector .left:before{
-	content: '';
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #5161ce;
-}
-.hori-selector .right:before{
-	bottom: 0;
-    right: -25px;
-}
-.hori-selector .left:before{
-	bottom: 0;
-    left: -25px;
-}
-
-
-@media(min-width: 992px){
-	.navbar-expand-custom {
-	    -ms-flex-flow: row nowrap;
-	    flex-flow: row nowrap;
-	    -ms-flex-pack: start;
-	    justify-content: flex-start;
-	}
-	.navbar-expand-custom .navbar-nav {
-	    -ms-flex-direction: row;
-	    flex-direction: row;
-	}
-	.navbar-expand-custom .navbar-toggler {
-	    display: none;
-	}
-	.navbar-expand-custom .navbar-collapse {
-	    display: -ms-flexbox!important;
-	    display: flex!important;
-	    -ms-flex-preferred-size: auto;
-	    flex-basis: auto;
-	}
-}
-
-
-@media (max-width: 991px){
-	#navbarSupportedContent ul li a{
-		padding: 12px 30px;
-	}
-	.hori-selector{
-		margin-top: 0px;
-		margin-left: 10px;
-		border-radius: 0;
-		border-top-left-radius: 25px;
-		border-bottom-left-radius: 25px;
-	}
-	.hori-selector .left,
-	.hori-selector .right{
-		right: 10px;
-	}
-	.hori-selector .left{
-		top: -25px;
-		left: auto;
-	}
-	.hori-selector .right{
-		bottom: -25px;
-	}
-	.hori-selector .left:before{
-		left: -25px;
-		top: -25px;
-	}
-	.hori-selector .right:before{
-		bottom: -25px;
-		left: -25px;
-	}
-}
-/* Call to Action */
-.btn{
-    color:#fff;
-    background-color:  #5161ce;
-    /* padding:10px 5px 2px 1px; */
-    margin:0;
-
-}
-.btn:hover{
-    background-color: tomato;
-    color:black;
-}
-
-
-</style>
-<head>
+ <?php include('header.php') ?>
 <body>
-
-
-<nav class="navbar navbar-expand-custom navbar-mainbg">
-        <a class="navbar-brand navbar-logo" href="#">SMS</a>
-        <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars text-white"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
-                <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-address-book"></i>Address Book</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-clone"></i>Components</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.timeanddate.com/calendar/?country=233"><i class="far fa-calendar-alt"></i>Calendar</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-chart-bar"></i>Charts</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-copy"></i>Documents</a>
-                    
-                </li>
-                
-            </ul>
-            <ul class="navbar-nav ml-auto nav-flew-icons">
-                <li class="nav-item dropdown">
-                    <?php if(isset($_SESSION['login'])) { ?>
-            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-user mr-2"></i>Account
-            </a>
-                    <div class="dropdown-menu dropdown-menu-right dropdown-dwfault" aria-labelledby="navbarDropdownMenuLink-333">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="logout.php">Logout</a>
-
-                    </div>
-                    <?php } else { ?>
-                        <a href="login.php" class="nav-link"> <i class="fa fa-user mr-2"></i> Login</a>
-                        <?php } ?>
-
-                </li>
-
-            </ul>
-            
-        </div>
-    </nav>
+<nav class="navbar navbar-expand-lg bg-body-tertiary bg-info">
+  <div class="container-fluid ">
+    <a class="navbar-brand" href="#">SMS</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 <div class="d-flex shadow" style="height:500px; background:linear-gradient(45deg, #3923a7 , transparent)">
 
 
