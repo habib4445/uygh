@@ -19,15 +19,17 @@
         </li>
         <li class="nav-item dropdown">
             <?php if (isset($_SESSION['login'])) { ?>
-          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" dat-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <!-- <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" dat-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
             <i class="fas fa-user"></i>
             </a>
-        
+        <div class="dropdown-menu dropdown-menu-right dropdown-default">
+            
           <ul class="dropdown-menu dropdown-menu-right dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
             <li><a class="dropdown-item" href="#">Action</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
+        </div>
           <?php } else { ?>
             <a href="login.php" class="nav-link text-white"> <i class="fa fa-user mr-2"></i>login </a>
             <?php } ?>
