@@ -17,7 +17,7 @@
                     </div>
                     <div class="md-form">
                         <input type="password" id="password" name="password" class="form-control">
-                        <label for="password">Your Password</label>
+                        <label for="password">Your Passwords</label>
                     </div>
                    <div class="text-center">
                     <button class="btn btn-secondary" name="login">Login</button>
